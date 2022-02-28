@@ -9,7 +9,7 @@ namespace MadLibs.Controllers
     public ActionResult Form() { return View(); }
 
     [Route("/madlib")]
-    public ActionResult Madlib(string verb, string adjective, string noun, string noun2, int number)
+    public ActionResult MadLibs(string verb, string adjective, string noun, string noun2, int number)
     {
       MadlibVariable myMadlibVariable = new MadlibVariable();
       myMadlibVariable.Verb = verb;
