@@ -4,10 +4,12 @@
     <meta charset='utf-8'>
     <title>Create a Custom Madlib!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="~/madlibs-csharp/css/styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>Fill in the following form with a noun, adjective, verb, and number to create a custom madlib!</h1>
-    <form action="/madlib" method="post">
+      <h1>Chooose the words you would like in your adventure madlib!</h1>
+
+    <form action="/adventureMadLib" method="post">
      <label for="verb">Verb</label>
      <input id="verb" name="verb" type="text">
      <label for="noun">Noun</label>
@@ -20,5 +22,6 @@
      <input id="number" name="verb" type="number">
      <button type="submit">Go!</button>
     </form>
+
   </body>
 </html>
